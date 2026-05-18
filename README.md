@@ -15,7 +15,7 @@ This project implements and evaluates different Convolutional Neural Network (CN
 - **Data Split**: K-fold cross-validation with 40 images per class per fold
 - **Image Type**: Satellite/aerial imagery with diverse terrain and land use patterns
 
-## 🏗️ Model Architectures
+##  Model Architectures
 
 The project evaluates four state-of-the-art CNN architectures:
 
@@ -24,7 +24,7 @@ The project evaluates four state-of-the-art CNN architectures:
 3. **MobileNetV2** - Efficient architecture for mobile deployment
 4. **ResNeXt101_32x8d** - Aggregated residual transformations
 
-## 🚀 Training Strategies
+##  Training Strategies
 
 Each architecture is evaluated under three different training approaches:
 
@@ -43,7 +43,7 @@ Each architecture is evaluated under three different training approaches:
 - Full network training on satellite data only
 - Baseline comparison for transfer learning effectiveness
 
-## 📈 Results Summary
+##  Results Summary
 
 ### Best Performing Models
 
@@ -61,7 +61,7 @@ Each architecture is evaluated under three different training approaches:
 - **DenseNet169** emerged as the optimal architecture for this satellite imagery task
 - **Training from scratch** achieved only 20-30% accuracy across all architectures
 
-## 🔬 Evaluation Methodology
+##  Evaluation Methodology
 
 The project implements rigorous evaluation using multiple statistical approaches:
 
@@ -77,7 +77,7 @@ The project implements rigorous evaluation using multiple statistical approaches
 - Early stopping and learning rate scheduling
 - Comprehensive performance visualization
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 
 ### Dependencies
 ```python
@@ -96,7 +96,7 @@ PIL>=8.3.0
 - **Visualization**: Training curves, confusion matrices, and performance plots
 - **Model Checkpointing**: Save best performing models during training
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DIP REVIEW2/
@@ -107,7 +107,7 @@ DIP REVIEW2/
 └── models/               # Saved model checkpoints (if applicable)
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -131,7 +131,7 @@ The main notebook `2.ipynb` contains:
 - Evaluation and visualization code
 - Results comparison and analysis
 
-## 📊 Performance Analysis
+##  Performance Analysis
 
 ### Transfer Learning Impact
 The results demonstrate the significant advantage of transfer learning:
@@ -145,7 +145,7 @@ The results demonstrate the significant advantage of transfer learning:
 - **MobileNetV2**: Suitable for deployment scenarios requiring smaller models
 - **ResNeXt101**: Strong performance but higher computational cost
 
-## 🎯 Applications
+##  Applications
 
 This satellite image classification system can be applied to:
 - **Land Use Monitoring**: Automated classification of terrain types
@@ -154,7 +154,7 @@ This satellite image classification system can be applied to:
 - **Agriculture**: Crop type identification and monitoring
 - **Disaster Response**: Rapid assessment of affected areas
 
-## 🔮 Future Work
+## Future Work
 
 - **Data Augmentation**: Advanced augmentation techniques for satellite imagery
 - **Ensemble Methods**: Combining predictions from multiple architectures
@@ -162,7 +162,7 @@ This satellite image classification system can be applied to:
 - **Multi-temporal Analysis**: Incorporating time-series satellite data
 - **Deployment Optimization**: Model quantization and mobile deployment
 
-## 📚 References
+##  References
 
 - He, K., et al. "Deep Residual Learning for Image Recognition" (ResNet)
 - Huang, G., et al. "Densely Connected Convolutional Networks" (DenseNet)
