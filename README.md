@@ -2,11 +2,11 @@
 
 A comprehensive deep learning project comparing multiple CNN architectures for multi-class satellite image classification using transfer learning and various training strategies.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements and evaluates different Convolutional Neural Network (CNN) architectures for classifying satellite imagery into 28 distinct classes. The study compares the effectiveness of transfer learning approaches versus training from scratch across multiple state-of-the-art architectures.
 
-## 📊 Dataset
+## Dataset
 
 - **Classes**: 28 different satellite image categories
 - **Total Images**: 2,800 images
@@ -173,4 +173,4 @@ This satellite image classification system can be applied to:
 
 ---
 
-**Note**: This project demonstrates proficiency in deep learning, computer vision, transfer learning, and scientific experimentation methodology. The systematic comparison of architectures and training strategies showcases best practices in ML research and development.
+**Note**: This project is under work cuurrently
